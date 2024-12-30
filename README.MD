@@ -1,3 +1,9 @@
 Agentic AI
 
-1.  phidata -- use 2 agents (financial_agent with YFinanceTools and web_search_agent with DuckDuckGo to Summarize analyst recommendation and share the latest news for a stock)
+1.  financial_agent.py -- A Python-based AI agent system using the Phi framework for financial analysis and web searches.
+
+## Features
+- Financial AI Agent: Analyzes stock data using YFinance
+- Web Search Agent: Performs web searches using DuckDuckGo
+- Multi AI Agent: Combines both agents for comprehensive analysis
+
