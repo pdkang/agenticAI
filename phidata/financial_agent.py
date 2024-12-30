@@ -5,9 +5,9 @@ from phi.tools.duckduckgo import DuckDuckGo
 
 from dotenv import load_dotenv
 load_dotenv()
-import openai
-import os
-openai.api_key=os.getenv("OPENAI_API_KEY")
+#import openai
+#import os
+#openai.api_key=os.getenv("OPENAI_API_KEY")
 
 ## web search agent
 web_search_agent=Agent(
@@ -37,6 +37,7 @@ financial_agent=Agent(
 )
 
 multi_ai_agent=Agent(
+    model=Groq(id="llama-3.1-70b-versatile"),
     team=[web_search_agent,financial_agent],
     instructions=["Always include sources","use table to display the data"],
     show_tool_calls=True,
