@@ -1,6 +1,5 @@
 Agentic AI
 
-<<<<<<< HEAD
 ## Financial AI analyst
 =======
 1.  ## Financial AI analyst
@@ -12,7 +11,6 @@ Agentic AI
     - Web Search Agent: Performs web searches using DuckDuckGo
     - Multi AI Agent: Combines both agents for comprehensive analysis
 
-=======
 2.  ## Pdf Assistant
     - pdf_assistant.py:  A Python-based document analysis system using the Phi framework for processing and querying PDF content
   
