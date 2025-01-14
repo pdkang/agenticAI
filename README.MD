@@ -20,5 +20,12 @@ Agentic AI
     - Vector Search: Uses pgvector for semantic document search
     - Interactive CLI: Provides markdown-supported conversational interface
 
-3.  ## financial AI agent for AWS AppRunner
-    - code specific for deploying to AppRunner
+3.  ## financial AI agent with Web interface FastAPI
+    - financial_agent.py: A FastAPI enabled web interface let user enter a stock symbol for analysis
+    - financial-agent-web-snap.jpg
+     
+    ### Features
+    - Simplified web design
+    - financial analysis provided by Yahoo Finance
+    - web search provided by DuckDuckGo
+    - multi ai agent approach by phidata (financial and web search agent with Groq(llama308b08192) and multi-ai-agent with Groq(llama-3.1-70b-versatile)
